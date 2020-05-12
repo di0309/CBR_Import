@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.ServiceProcess;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ServiceProcess;
 
 namespace CBR_Import
 {
@@ -17,7 +12,7 @@ namespace CBR_Import
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
-                new Service1()
+                new CBR_Import()
             };
             ServiceBase.Run(ServicesToRun);
         }

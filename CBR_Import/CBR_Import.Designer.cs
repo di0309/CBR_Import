@@ -1,6 +1,6 @@
 ﻿namespace CBR_Import
 {
-    partial class Service1
+    partial class CBR_Import
     {
         /// <summary> 
         /// Обязательная переменная конструктора.
@@ -28,8 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            this.ServiceName = "Service1";
+            this.ServiceName = "CBR_Import";
         }
 
         #endregion
