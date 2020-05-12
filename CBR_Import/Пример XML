@@ -1,0 +1,32 @@
+--стуктура скачиваемого файла такова. реальный файл намного объемней.
+
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<ED807 DirectoryVersion="1" BusinessDay="2020-04-28" InfoTypeCode="FIRR" CreationDateTime="2020-04-27T18:33:48Z" CreationReason="FCBD" EDAuthor="4583001999" EDDate="2020-04-27" EDNo="707572026" xmlns="urn:cbr-ru:ed:v2.0">
+	<BICDirectoryEntry BIC="041280103">
+		<ParticipantInfo ParticipantStatus="PSAC" UID="1280002005" XchType="1" Srvcs="3" PtType="52" DateIn="2010-06-08" Adr="ул Латышева, 6 Г" Nnp="Астрахань" Tnp="г." Ind="414056" Rgn="12" CntrCd="RU" NameP="УФК по Астраханской области"/>
+		<SWBICS DefaultSWBIC="1" SWBIC="KURSRU22XXX"/>
+		<Accounts DateIn="2013-01-09" AccountStatus="ACAC" AccountCBRBIC="041280002" CK="99" RegulationAccountType="TRSA" Account="40116810100000010010"/>
+		<Accounts DateIn="2013-01-09" AccountStatus="ACAC" AccountCBRBIC="041280002" CK="99" RegulationAccountType="TRSA" Account="40116810400000010011"/>
+		<Accounts DateIn="2013-01-09" AccountStatus="ACAC" AccountCBRBIC="041280002" CK="99" RegulationAccountType="TRSA" Account="40116810700000010012"/>
+		<Accounts DateIn="2013-01-09" AccountStatus="ACAC" AccountCBRBIC="041280002" CK="99" RegulationAccountType="TRSA" Account="40116810000000010013"/>
+		<Accounts DateIn="2013-01-09" AccountStatus="ACAC" AccountCBRBIC="041280002" CK="99" RegulationAccountType="TRSA" Account="40116810300000010014"/>
+		<Accounts DateIn="2013-01-09" AccountStatus="ACAC" AccountCBRBIC="041280002" CK="99" RegulationAccountType="TRSA" Account="40116810600000010015"/>
+		<Accounts DateIn="2012-04-16" AccountStatus="ACAC" AccountCBRBIC="040349001" CK="78" RegulationAccountType="CRSA" Account="30101810500000000736">
+			<AccRstrList AccRstrDate="2020-02-05" AccRstr="LMRS"/>
+			<AccRstrList AccRstrDate="2020-07-27" AccRstr="CLRS"/>
+		</Accounts>
+	</BICDirectoryEntry>
+	<BICDirectoryEntry BIC="041280103">
+		<ParticipantInfo ParticipantStatus="DSAC" UID="1280002005" XchType="1" Srvcs="3" PtType="52" DateIn="2010-06-08" Adr="ул Латышева, 6 Г" Nnp="Астрахань" Tnp="г." Ind="414056" Rgn="12" CntrCd="RU" NameP="УФК по Астраханской области">
+			<RstrList RstrDate="2015-12-18" Rstr="URRS"/>
+		</ParticipantInfo>
+		<Accounts DateIn="2013-01-09" AccountStatus="ACAC" AccountCBRBIC="041280002" CK="99" RegulationAccountType="TRSA" Account="40116810100000010010"/>
+		<Accounts DateIn="2013-01-09" AccountStatus="ACAC" AccountCBRBIC="041280002" CK="99" RegulationAccountType="TRSA" Account="40116810400000010011"/>
+		<Accounts DateIn="2013-01-09" AccountStatus="ACAC" AccountCBRBIC="041280002" CK="99" RegulationAccountType="TRSA" Account="40116810700000010012"/>
+		<Accounts DateIn="2013-01-09" AccountStatus="ACAC" AccountCBRBIC="041280002" CK="99" RegulationAccountType="TRSA" Account="40116810000000010013"/>
+		<Accounts DateIn="2013-01-09" AccountStatus="ACAC" AccountCBRBIC="041280002" CK="99" RegulationAccountType="TRSA" Account="40116810300000010014"/>
+		<Accounts DateIn="2013-01-09" AccountStatus="ACAC" AccountCBRBIC="041280002" CK="99" RegulationAccountType="TRSA" Account="40116810600000010015"/>
+		<Accounts DateIn="2012-04-16" AccountStatus="ACAC" AccountCBRBIC="040349001" CK="78" RegulationAccountType="CRSA" Account="30101810500000000736">
+		</Accounts>
+	</BICDirectoryEntry>
+</ED807>
